@@ -1,9 +1,9 @@
 <?php
 
 class Produk{
-    public  $judul = 'judul',
-            $penulis = 'penulis',
-            $penerbit = 'penerbit',
+    public  $judul,
+            $penulis,
+            $penerbit,
             $harga = 0;
 
     public function __construct( $judul="judul", $penulis="penulis", $penerbit="penerbit", $harga= 0)
